@@ -1,0 +1,70 @@
+@charset "UTF-8"
+
+
+;div.pagina-usuario {
+    width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    margin: auto;
+}
+
+fieldset {
+    border-radius: 10px;
+    color: #606060;
+    font-size: 18px;
+}
+
+legend {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #606060;
+    text-align: center;
+}
+
+ input,textarea {
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #606060;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #606060 ;
+    outline: none;
+    background: transparent;
+}
+
+.pagina-usuario label {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    color: #606060;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+#enviar {
+    padding: 10px 20px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    letter-spacing: 1px;
+    border: 1px solid #606060;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#enviar:hover {
+    background: #606060;
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #888888, 0 0 25px #888888, 0 0 50px #888888, 0 0 1000px #888888;
+}
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
