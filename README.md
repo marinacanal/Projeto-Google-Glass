@@ -1,3 +1,3 @@
 # Projeto Google Glass
 
-site feito com base nas aulas do professor Gustavo Gunabara 
+site + testes feitos com base nas aulas do professor Gustavo Guanabara 
